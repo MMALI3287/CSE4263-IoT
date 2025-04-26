@@ -1,10 +1,14 @@
-# 🌐 CSE4263 - Internet of Things (IoT)
+<h1 align="center">🌐 CSE4263 - Internet of Things (IoT)</h1>
 
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![Course](https://img.shields.io/badge/Course-CSE4263-blue?style=for-the-badge)
-![Focus](https://img.shields.io/badge/Focus-IoT-orange?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Course-CSE4263-blue?style=for-the-badge" alt="Course" />
+  <img src="https://img.shields.io/badge/Focus-IoT-orange?style=for-the-badge" alt="Focus" />
+</p>
 
-![IoT Banner](assets/IOT-banner-min.jpg)
+<p align="center">
+  <img src="assets/IOT-banner-min.jpg" alt="IoT Banner" width="600px" />
+</p>
 
 ## 📋 Overview
 
@@ -74,4 +78,6 @@ This repository is for educational purposes. All materials are subject to their 
 
 ---
 
-Built with ❤️ by [MD Musaddique Ali Erfan](https://github.com/MMALI3287)
+<p align="center">
+  Built with ❤️ by <a href="https://github.com/MMALI3287">MD Musaddique Ali Erfan</a>
+</p>
