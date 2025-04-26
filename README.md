@@ -1,16 +1,10 @@
 # 🌐 CSE4263 - Internet of Things (IoT)
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status" />
-  <img src="https://img.shields.io/badge/Course-CSE4263-blue?style=for-the-badge" alt="Course" />
-  <img src="https://img.shields.io/badge/Focus-IoT-orange?style=for-the-badge" alt="Focus" />
-</div>
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Course](https://img.shields.io/badge/Course-CSE4263-blue?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-IoT-orange?style=for-the-badge)
 
-<br>
-
-<p align="center">
-  <img src="https://cdn.pixabay.com/photo/2019/09/09/08/23/internet-of-things-4463032_1280.jpg" alt="IoT Banner" width="600px" />
-</p>
+![IoT Banner](https://cdn.pixabay.com/photo/2019/09/09/08/23/IOT-banner-min.jpg)
 
 ## 📋 Overview
 
@@ -18,7 +12,7 @@ This repository contains comprehensive study materials, notes, and resources for
 
 ## 📁 Repository Structure
 
-```
+```text
 CSE4263-IoT/
 ├── 📝 markdown/  - Detailed notes and study guides
 └── 📚 pdfs/      - Reference materials and lecture slides
@@ -26,44 +20,15 @@ CSE4263-IoT/
 
 ## 🎯 Key Topics Covered
 
-<table>
-  <tr>
-    <td align="center"><img src="https://img.icons8.com/color/48/000000/idea.png" width="60px" /><br><b>Core Concepts</b></td>
-    <td>Definitions, scope, and evolution of IoT</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.icons8.com/color/48/000000/workflow.png" width="60px" /><br><b>Architectures</b></td>
-    <td>IoTWF 7-Layer Model, Purdue Model, Simplified 3-Layer Stack</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.icons8.com/color/48/000000/electronics.png" width="60px" /><br><b>Smart Objects</b></td>
-    <td>Sensors, actuators, and embedded systems</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.icons8.com/color/48/000000/wifi--v1.png" width="60px" /><br><b>Connectivity</b></td>
-    <td>Protocols, technologies, and standards for IoT communication</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.icons8.com/color/48/000000/ip-address.png" width="60px" /><br><b>IP Networks</b></td>
-    <td>Adaptations for resource-limited devices</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.icons8.com/color/48/000000/api-settings.png" width="60px" /><br><b>Protocols</b></td>
-    <td>MQTT, CoAP, HTTP, and other protocols for IoT</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.icons8.com/color/48/000000/database.png" width="60px" /><br><b>Data Management</b></td>
-    <td>Processing, storing, and analyzing IoT data</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.icons8.com/color/48/000000/security-checked.png" width="60px" /><br><b>Security</b></td>
-    <td>Challenges, best practices, and frameworks</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.icons8.com/color/48/000000/factory.png" width="60px" /><br><b>Industry Use Cases</b></td>
-    <td>Applications in manufacturing, utilities, smart cities, etc.</td>
-  </tr>
-</table>
+- 💡 **Core Concepts** - Definitions, scope, and evolution of IoT
+- 🔄 **Architectures** - IoTWF 7-Layer Model, Purdue Model, Simplified 3-Layer Stack
+- 🔌 **Smart Objects** - Sensors, actuators, and embedded systems
+- 📶 **Connectivity** - Protocols, technologies, and standards for IoT communication
+- 🌐 **IP Networks** - Adaptations for resource-limited devices
+- 📡 **Protocols** - MQTT, CoAP, HTTP, and other protocols for IoT
+- 💾 **Data Management** - Processing, storing, and analyzing IoT data
+- 🔒 **Security** - Challenges, best practices, and frameworks
+- 🏭 **Industry Use Cases** - Applications in manufacturing, utilities, smart cities, etc.
 
 ## 📚 Study Resources
 
@@ -107,6 +72,4 @@ This repository is for educational purposes. All materials are subject to their 
 
 ---
 
-<div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/MMALI3287">MD Musaddique Ali Erfan</a></sub>
-</div>
+Built with ❤️ by [MD Musaddique Ali Erfan](https://github.com/MMALI3287)
