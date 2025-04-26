@@ -4,7 +4,7 @@
 ![Course](https://img.shields.io/badge/Course-CSE4263-blue?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-IoT-orange?style=for-the-badge)
 
-![IoT Banner](https://cdn.pixabay.com/photo/2019/09/09/08/23/IOT-banner-min.jpg)
+![IoT Banner](assets/IOT-banner-min.jpg)
 
 ## 📋 Overview
 
@@ -50,9 +50,11 @@ The notes are organized to facilitate exam preparation with:
 ## 🚀 Getting Started
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/MMALI3287/CSE4263-IoT.git
    ```
+
 2. Review the markdown notes for comprehensive understanding of IoT concepts
 3. Refer to the PDF materials for additional details and references
 
