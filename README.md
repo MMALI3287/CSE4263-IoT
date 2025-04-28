@@ -14,42 +14,64 @@
 
 This repository contains comprehensive study materials, notes, and resources for the Internet of Things (IoT) course (CSE4263). The materials are structured to provide both theoretical understanding and practical knowledge of IoT systems.
 
-## 📁 Repository Structure
+# IoT Course Materials
 
-```text
-CSE4263-IoT/
-├── 📝 markdown/  - Detailed notes and study guides
-└── 📚 pdfs/      - Reference materials and lecture slides
-```
+## Course Structure
 
-## 🎯 Key Topics Covered
+### L1: IoT Fundamentals
 
-- 💡 **Core Concepts** - Definitions, scope, and evolution of IoT
-- 🔄 **Architectures** - IoTWF 7-Layer Model, Purdue Model, Simplified 3-Layer Stack
-- 🔌 **Smart Objects** - Sensors, actuators, and embedded systems
-- 📶 **Connectivity** - Protocols, technologies, and standards for IoT communication
-- 🌐 **IP Networks** - Adaptations for resource-limited devices
-- 📡 **Protocols** - MQTT, CoAP, HTTP, and other protocols for IoT
-- 💾 **Data Management** - Processing, storing, and analyzing IoT data
-- 🔒 **Security** - Challenges, best practices, and frameworks
-- 🏭 **Industry Use Cases** - Applications in manufacturing, utilities, smart cities, etc.
+- Core IoT characteristics
+- IoT lifecycle management
+- Applications and use cases
 
-## 📚 Study Resources
+### L2: Advanced Computing
 
-The repository includes various study guides and notes that synthesize information from:
+- Federated learning
+- Implementation patterns
 
-- 📕 **"IoT Fundamentals" textbook** - Core concepts and principles
-- 📊 **Lecture slides and supplementary materials** - Additional explanations and examples
-- 🏭 **Industry case studies and examples** - Real-world applications
+### L3: Computing Paradigms
 
-## 📝 Exam Preparation
+- Fog computing architecture and case studies
+- Edge computing implementation
+- IoT security challenges
 
-The notes are organized to facilitate exam preparation with:
+### L4: Case Studies
 
-- ✅ **Comprehensive overviews** of key concepts
-- ✅ **Detailed explanations** of protocols and architectures
-- ✅ **Comparison tables** of different technologies and approaches
-- ✅ **Real-world applications** and use cases
+- Fog computing applications
+- Industrial implementations
+
+## Key Topics
+
+### Core Technologies
+
+- IACS (Industrial Automation and Control Systems)
+- CPWE (Converged Plantwide Ethernet) reference model
+- Resilient ethernet protocols
+- Cost to agility models
+
+### Security
+
+- OCTAVE framework implementation
+- OT security challenges
+- Data source reliability
+
+### Communication
+
+- LPWA model implementation
+- Frequency band considerations
+- Communication criteria
+
+### Data Processing
+
+- Hadoop ecosystem (high priority)
+- Data analytics pipeline
+- Integration patterns
+
+## Study Resources
+
+- Detailed notes available in markdown/
+- Implementation examples in case studies
+- Practical applications and exercises
 
 ## 🚀 Getting Started
 
@@ -79,5 +101,5 @@ This repository is for educational purposes. All materials are subject to their 
 ---
 
 <p align="center">
-  Built with ❤️ by <a href="https://github.com/MMALI3287">MD Musaddique Ali Erfan</a>
+  Built with ❤️ by [MD Musaddique Ali Erfan](https://github.com/MMALI3287)
 </p>

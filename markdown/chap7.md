@@ -1,76 +1,37 @@
 # Data and Analytics for IoT
 
-As more devices join IoT networks, the volume of data generated quickly becomes overwhelming. Traditional data management systems struggle with what has come to be known as “big data.”
+## Hadoop Architecture and Components
 
-## Structured vs. Unstructured Data
+### Core Components
 
-- **Structured Data**  
-  • Follows a predefined model or schema  
-  • Easily managed with relational databases (RDBMS)  
-  • Example: IoT sensor data (temperature, pressure, humidity) in a known format
+- **HDFS (Hadoop Distributed File System)**
 
-- **Unstructured Data**  
-  • Lacks a logical schema for easy parsing  
-  • Approximately 80% of a business’s data is unstructured  
-  • Requires advanced analytics (cognitive computing, machine learning)
+  - NameNode: Manages filesystem namespace
+  - DataNode: Stores and retrieves blocks
+  - Block replication for reliability
 
-![Data Structures vs. Unstructured](../assets/Structuresvsuns.png)
+- **MapReduce**
+  - Programming model for large-scale data processing
+  - Map phase: Data transformation
+  - Reduce phase: Data aggregation
+  - YARN for resource management
 
-## Data in Motion vs. Data at Rest
+### Hadoop Ecosystem
 
-- **Data in Motion**  
-  • Generated continuously by smart objects  
-  • Often processed at the edge (via fog computing)  
-  • May be filtered, deleted, or forwarded for further processing
+- **Data Ingestion**
+  - Kafka: Real-time streaming
+  - Flume: Log aggregation
+- **Processing**
+  - Spark: In-memory processing
+  - Storm: Real-time computation
+  - Flink: Stream/batch processing
+- **Storage**
+  - HBase: Column-oriented database
+  - Cassandra: Distributed database
 
-- **Data at Rest**  
-  • Stored in IoT brokers or data centers for later analysis
+## Edge Analytics Integration
 
-![Data Analysis Results](../assets/dataanalysisresults.png)
-
-## IoT Data Analytics Challenges
-
-- **Scaling Problems:**  
-  • Massive data volumes lead to rapidly growing relational databases  
-  • Performance issues may require additional hardware and architectural changes
-
-- **Volatility of Data:**  
-  • IoT data models change frequently  
-  • A dynamic schema is necessary, unlike the fixed schemas of traditional databases
-
-- **Streaming Data:**  
-  • High-volume streams require real-time analysis to extract value
-
-- **Network Analytics:**  
-  • Managing, monitoring, and securing continuous data flows from numerous devices is challenging
-
-## Machine Learning and Big Data Intelligence
-
-ML operations for IoT can be grouped into two categories:
-
-- **Local Learning:**  
-  • Data is collected and processed locally  
-  • Processing happens at the sensor (edge node) or gateway (fog node)
-
-- **Remote Learning:**  
-  • Data is sent to a central computing unit (data center or cloud) for processing
-
-### Key ML Applications in IoT
-
-- **Monitoring:**  
-  • Smart objects continuously monitor environmental and operational conditions  
-  • Data analytics help detect early failure conditions (e.g., identifying deviations using K-means)  
-  • Examples: Monitoring air quality in mines, pump pressure in pipelines
-
-- **Behavior Control:**  
-  • When monitored parameters cross defined thresholds, alerts are generated or corrective actions are triggered  
-  • Examples: Adjusting airflow in a mine tunnel, controlling a robot arm, or reducing engine pressure
-
-- **Operations Optimization:**  
-  • Analytics can lead to improved process control and efficiency  
-  • Example: In a water purification plant, neural networks process data (chemical type, temperature, stirring speed/depth) to determine the optimal mix for maximum efficiency and reduced chemical consumption
-
-- **Self-Healing and Self-Optimizing Systems:**  
-  • Deep learning creates a closed loop of monitoring, decision-making, and action  
-  • Systems dynamically adjust parameters and implement optimizations as gains are detected  
-  • The system evolves to become self-learning and self-optimizing
+- Processing close to data source
+- Reduced latency and bandwidth usage
+- Real-time decision making
+- Integration with Hadoop for long-term storage
