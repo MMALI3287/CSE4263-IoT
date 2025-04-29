@@ -79,3 +79,13 @@
 - Band allocation
 - Country regulations
 - Implementation standards
+  Briefing Document: Internet of Things (IoT), Data Analytics, Automation, and Networking
+  This briefing document provides an overview of key concepts, technologies, and architectures related to the Internet of Things (IoT), with a focus on data management, analytics, automation, and networking. It synthesizes information from several sources, including a comprehensive IoT study guide, excerpts on automation, communication-efficient learning, Ethernet architectures, and IoT module content.
+
+- LPWA Model
+  - Network Design
+  - Implementation
+- Frequency Bands
+  - Regional Standards
+  - Allocation Rules
+- Communication Criteria
